@@ -8,13 +8,11 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button connect;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        connect = (Button)findViewById(R.id.connect);
+        Button connect = (Button) findViewById(R.id.connect);
 
         connect.setOnClickListener(new View.OnClickListener() {
             @Override
