@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 public class Main2Activity extends AppCompatActivity {
 
-    private String[] prenoms = new String[]{
+    private String[] ecoles = new String[]{
             "École Jules Ferry", "École Victor Hugo", "École Bayard", "École Jean Chaubet", "École Montaudran", "École Ronsard",
             "École Fontaine Bayonne", "École Paul Dottin", "École Pierre Dupont", "École Gaston Dupouy", "École Fabre", "École Lespinasse",
             "École Jules Julien", "École Jean Jaurès", "École Marcel Pagnol", "École Le Pastel",
@@ -30,7 +30,7 @@ public class Main2Activity extends AppCompatActivity {
         //Contenant une TextView avec comme identifiant "@android:id/text1"
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(Main2Activity.this,
-                android.R.layout.simple_list_item_1, prenoms);
+                android.R.layout.simple_list_item_1, ecoles);
         mListView.setAdapter(adapter);
     }
 
