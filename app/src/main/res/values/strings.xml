@@ -11,7 +11,8 @@
     <string name="bonjour_cl_ment">Bonjour Clément !</string>
     <string name="je_fais_accompagner">Je fais accompagner</string>
     <string name="tre_accompagnateur">Être accompagnateur</string>
-    <string name="email">Email</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="se_connecter">Se connecter</string>
 
     <string-array name="ecoles">
         <item>École Jules Ferry</item>
