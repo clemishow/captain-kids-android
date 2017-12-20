@@ -33,3 +33,5 @@ dependencies {
     apply plugin: 'com.google.gms.google-services'
     compile 'de.hdodenhof:circleimageview:2.2.0'
 }
+
+apply plugin :'com.google.gms.google-services'
