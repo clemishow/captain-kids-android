@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openPage2() {
-        Intent intent = new Intent("android.intent.action.Main2Activity");
+        Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
     }
 }
