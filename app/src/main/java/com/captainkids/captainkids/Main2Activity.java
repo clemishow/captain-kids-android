@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedIanstanceState);
         setContentView(R.layout.activity_main2);
 
-        listView =  (ListView)findViewById(R.id.listView);
+        listView = (ListView)findViewById(R.id.listView);
 
         ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(Main2Activity.this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.ecoles));
 
