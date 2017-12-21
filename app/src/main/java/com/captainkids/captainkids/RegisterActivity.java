@@ -76,7 +76,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
         if (view == textViewSignin){
             finish();
-            startActivity(new Intent( this, SchoolActivity.class));
+            startActivity(new Intent( this, LoginActivity.class));
         }
     }
 }
