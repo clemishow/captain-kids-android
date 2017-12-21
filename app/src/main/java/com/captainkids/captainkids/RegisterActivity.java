@@ -15,37 +15,31 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-
-    private Button signinbtn;
+    private Button RegisterButton;
     private EditText editTextEmail;
     private EditText editTextPassword;
-    private Button registerbtn;
+    private Button textViewSignin;
 
     private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
 
         firebaseAuth = FirebaseAuth.getInstance();
-        //if(firebaseAuth.getCurrentUser() !=null){
-         //   finish();
-          //  startActivity(new Intent(getApplicationContext(), ChoiceActivity.class));
-        //}
 
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
-        signinbtn = (Button) findViewById(R.id.signinbtn);
-        registerbtn = (Button) findViewById(R.id.registerbtn);
+        RegisterButton = (Button) findViewById(R.id.RegisterButton);
 
-        signinbtn.setOnClickListener(this);
-        registerbtn.setOnClickListener(this);
+        RegisterButton.setOnClickListener(this);
+        textViewSignin.setOnClickListener(this);
     }
 
-    private void userLogin() {
+    private void userResgister() {
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
@@ -59,13 +53,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
 
-        firebaseAuth.signInWithEmailAndPassword(email,password)
+        firebaseAuth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
+                        if(task.isSuccessful()) {
+                            Toast.makeText(RegisterActivity.this, "Registered succefully", Toast.LENGTH_SHORT).show();
                             finish();
-                            startActivity(new Intent(getApplicationContext(), ChoiceActivity.class));
+                            startActivity(new Intent(getApplicationContext(), SchoolActivity.class));
+                        }else{
+                            Toast.makeText(RegisterActivity.this, "Coulnd not register.Please try again.", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -73,12 +70,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View view) {
-        if (view == signinbtn) {
-            userLogin();
+        if (view == RegisterButton ) {
+            userResgister();
         }
-        if (view == registerbtn) {
+        if (view == textViewSignin){
             finish();
-            startActivity(new Intent( this, RegisterActivity.class));
+            startActivity(new Intent( this, SchoolActivity.class));
         }
     }
 }

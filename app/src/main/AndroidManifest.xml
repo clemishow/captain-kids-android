@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.captainkids.captainkids">
 
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,29 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".LoginActivity"
-            android:label="@string/title_activity_main">
+        <activity android:name=".LandingActivity"
+            android:label="@string/title_landing_activity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <activity
-            android:name=".Main2Activity"
-            android:label="@string/title_activity_main2">
-        </activity>
+            android:name=".LoginActivity"
+            android:label="@string/title_login_activity">
 
-        <activity
-            android:name=".Main3Activity"
-            android:label="@string/title_activity_main3">
             <intent-filter>
-                <action android:name="android.intent.action.Main3Activity" />
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
         </activity>
- 
+
+        <activity android:name=".RegisterActivity"
+            android:label="@string/title_register_activity"/>
+
+        <activity
+            android:name=".SchoolActivity"
+            android:label="@string/title_school_activity" />
+
+        <activity
+            android:name=".ChoiceActivity"
+            android:label="@string/title_choice_activity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.ChoiceActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
     </application>
 
 </manifest>

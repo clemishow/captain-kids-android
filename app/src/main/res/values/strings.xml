@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Captain Kids</string>
-    <string name="title_activity_main">Se connecter</string>
-    <string name="title_activity_main2">Choisir une école</string>
-    <string name="title_activity_main3">Faire un choix</string>
+    <string name="title_landing_activity">Captain Kids</string>
+    <string name="title_login_activity">Captain Kids</string>
+    <string name="title_register_activity">S\'inscrire</string>
+    <string name="title_school_activity">Choisir une école</string>
+    <string name="title_choice_activity">Faire un choix</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="email">Email</string>
     <string name="validez">Validez</string>
@@ -13,6 +15,7 @@
     <string name="tre_accompagnateur">Être accompagnateur</string>
     <string name="s_inscrire">S\'inscrire</string>
     <string name="se_connecter">Se connecter</string>
+    <string name="bienvenue_rentre_ton_code_d_activation_afin_de_pouvoir_utiliser_l_application">Bienvenue, rentre ton code d’activation afin de pouvoir utiliser l’application !</string>
 
     <string-array name="ecoles">
         <item>École Jules Ferry</item>
