@@ -1,8 +1,43 @@
 <resources>
     <string name="app_name">Captain Kids</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_landing_activity">Captain Kids</string>
+    <string name="title_login_activity">Captain Kids</string>
+    <string name="title_register_activity">S\'inscrire</string>
+    <string name="title_school_activity">Choisir une école</string>
+    <string name="title_choice_activity">Faire un choix</string>
+    <string name="title_activity_main4">Accompagner un écolier</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="email">Email</string>
     <string name="validez">Validez</string>
     <string name="pas_encore_de_compte">Pas encore de compte</string>
+    <string name="que_voulez_vous_faire_avec_vos_3_points">Que voulez vous faire avec vos 3 points ?</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="je_fais_accompagner">Je fais accompagner</string>
+    <string name="tre_accompagnateur">Être accompagnateur</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="bienvenue_rentre_ton_code_d_activation_afin_de_pouvoir_utiliser_l_application">Bienvenue, rentre ton code d’activation afin de pouvoir utiliser l’application !</string>
+    <string name="pic_date">picdate</string>
+    <string name="valider">Valider</string>
+    <string name="fin">FIN</string>
+    <string name="emoji">emoji</string>
+
+    <string-array name="ecoles">
+        <item>École Jules Ferry</item>
+        <item>École Victor Hugo</item>
+        <item>École Bayard</item>
+        <item>École Jean Chaubet</item>
+        <item>École Montaudran</item>
+        <item>École Ronsard</item>
+        <item>École Fontaine Bayonne</item>
+        <item>École Paul Dottin</item>
+        <item>École Pierre Dupont</item>
+        <item>École Gaston Dupouy</item>
+        <item>École Fabre</item>
+        <item>École Lespinasse</item>
+        <item>École Jules Julien</item>
+        <item>École Jean Jaurès</item>
+        <item>École Marcel Pagnol</item>
+        <item>École Le Pastel</item>
+    </string-array>
 </resources>

@@ -2,19 +2,24 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.captainkids.captainkids.Main2Activity">
+    tools:context="com.captainkids.captainkids.EndActivity">
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="398dp"
-        android:layout_height="616dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="174dp"
+        android:contentDescription="@string/emoji"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/emoji" />
 </android.support.constraint.ConstraintLayout>
