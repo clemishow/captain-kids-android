@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class ChoiceActivity extends AppCompatActivity {
+public class ChoiceActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
