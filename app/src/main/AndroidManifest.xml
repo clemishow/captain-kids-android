@@ -11,50 +11,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".LandingActivity"
+        <activity
+            android:name=".LandingActivity"
             android:label="@string/title_landing_activity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_login_activity">
-
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RegisterActivity"
-            android:label="@string/title_register_activity"/>
-
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_register_activity" />
         <activity
             android:name=".SchoolActivity"
             android:label="@string/title_school_activity" />
-
         <activity
             android:name=".ChoiceActivity"
             android:label="@string/title_choice_activity">
-
             <intent-filter>
                 <action android:name="android.intent.action.ChoiceActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
         </activity>
-
         <activity
-            android:name=".Main4Activity"
+            android:name=".CalendarActivity"
             android:label="@string/title_activity_main4" />
-
-
+        <activity android:name=".EndActivity"></activity>
     </application>
 
 </manifest>

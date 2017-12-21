@@ -19,7 +19,7 @@ public class LandingActivity extends AppCompatActivity {
 
         connect.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick (View view) {
                 openPageLogin();
             }
         });

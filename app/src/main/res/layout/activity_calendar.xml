@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.captainkids.captainkids.Main4Activity">
+    tools:context="com.captainkids.captainkids.CalendarActivity">
 
     <DatePicker
         android:id="@+id/datePicker2"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonValidate"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"

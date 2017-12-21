@@ -3,17 +3,12 @@ package com.captainkids.captainkids;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-import java.util.ResourceBundle;
-
 
 
 public class ChoiceActivity extends AppCompatActivity  {
@@ -50,7 +45,7 @@ public class ChoiceActivity extends AppCompatActivity  {
     }
 
     private void openPage4() {
-        Intent intent = new Intent(this, Main4Activity.class);
+        Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
     }
 
