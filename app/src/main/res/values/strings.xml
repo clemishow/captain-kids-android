@@ -17,6 +17,7 @@
     <string name="s_inscrire">S\'inscrire</string>
     <string name="se_connecter">Se connecter</string>
     <string name="bienvenue_rentre_ton_code_d_activation_afin_de_pouvoir_utiliser_l_application">Bienvenue, rentre ton code d’activation afin de pouvoir utiliser l’application !</string>
+    <string name="pic_date">picdate</string>
 
     <string-array name="ecoles">
         <item>École Jules Ferry</item>

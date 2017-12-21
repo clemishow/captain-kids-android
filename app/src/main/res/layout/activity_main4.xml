@@ -10,14 +10,13 @@
         android:id="@+id/picDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pic Date"
-        />
-    <!--android:onClick="datePicker"-->
+        android:text="@string/pic_date"
+        android:onClick="datePicker"/>
     <TextView
         android:layout_below="@+id/picDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/showDate"
-        android:textSize="18dp"/>
+        android:textSize="18sp"/>
 
 </android.support.constraint.ConstraintLayout>
