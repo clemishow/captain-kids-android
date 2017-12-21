@@ -34,6 +34,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         RegisterButton = (Button) findViewById(R.id.RegisterButton);
+        textViewSignin = (Button) findViewById(R.id.textViewSignin);
 
         RegisterButton.setOnClickListener(this);
         textViewSignin.setOnClickListener(this);
