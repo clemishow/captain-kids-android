@@ -50,7 +50,10 @@
             </intent-filter>
 
         </activity>
-
+        
+        <activity
+            android:name=".Main4Activity"
+            android:label="@string/title_activity_main4" />
     </application>
 
 </manifest>

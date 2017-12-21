@@ -5,6 +5,7 @@
     <string name="title_register_activity">S\'inscrire</string>
     <string name="title_school_activity">Choisir une école</string>
     <string name="title_choice_activity">Faire un choix</string>
+    <string name="title_activity_main4">Accompagner un écolier</string>
     <string name="mot_de_passe">Mot de passe</string>
     <string name="email">Email</string>
     <string name="validez">Validez</string>
